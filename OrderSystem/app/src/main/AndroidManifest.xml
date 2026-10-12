@@ -13,7 +13,7 @@
         android:theme="@style/Theme.OrderSystem">
 
         <activity
-            android:name="com.example.fastfoodorderingapp.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.OrderSystem">
             <intent-filter>
@@ -21,51 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name="com.example.fastfoodorderingapp.MainMealActivity"
-            android:exported="false"
-            android:label="Main Meal" />
-
-        <activity
-            android:name="com.example.fastfoodorderingapp.SideDishesActivity"
-            android:exported="false"
-            android:label="Side Dishes" />
-
-        <activity
-            android:name="com.example.fastfoodorderingapp.DrinkActivity"
-            android:exported="false"
-            android:label="Drink" />
-
-        <activity
-            android:name="com.example.fastfoodorderingapp.ConfirmActivity"
-            android:exported="false"
-            android:label="Confirm Order" />
-
-        <activity
-            android:name="com.example.ordersystem.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="com.example.ordersystem.MainMealActivity"
-            android:exported="false" />
-
-        <activity
-            android:name="com.example.ordersystem.SideDishesActivity"
-            android:exported="false" />
-
-        <activity
-            android:name="com.example.ordersystem.DrinkActivity"
-            android:exported="false" />
-
-        <activity
-            android:name="com.example.ordersystem.ConfirmActivity"
-            android:exported="false" />
 
     </application>
 
