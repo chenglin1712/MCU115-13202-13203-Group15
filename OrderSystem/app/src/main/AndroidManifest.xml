@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrderSystem">
+
+        <activity
+            android:name="com.example.fastfoodorderingapp.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.OrderSystem">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.fastfoodorderingapp.MainMealActivity"
+            android:exported="false"
+            android:label="Main Meal" />
+
+        <activity
+            android:name="com.example.fastfoodorderingapp.SideDishesActivity"
+            android:exported="false"
+            android:label="Side Dishes" />
+
+        <activity
+            android:name="com.example.fastfoodorderingapp.DrinkActivity"
+            android:exported="false"
+            android:label="Drink" />
+
+        <activity
+            android:name="com.example.fastfoodorderingapp.ConfirmActivity"
+            android:exported="false"
+            android:label="Confirm Order" />
+
+        <activity
+            android:name="com.example.ordersystem.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ordersystem.MainMealActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.ordersystem.SideDishesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.ordersystem.DrinkActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.ordersystem.ConfirmActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
